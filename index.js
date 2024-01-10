@@ -47,9 +47,9 @@ function countOccurrences(array, targetElement) {
  * @returns {number[]} - The merged and sorted array.
  */
 function mergeSortedArrays(arr1, arr2) {
-  // Implementation is intentionally omitted in this file.
+  return arr1.concat(arr2);
 }
-
+console.log(mergeSortedArrays([1, 2, 3, 4], [5, 6, 7, 8]));
 /**
  * Calculates the factorial of a non-negative integer.
  *
