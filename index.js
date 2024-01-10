@@ -62,5 +62,4 @@ function calculateFactorial(n) {
   }
   return product;
 }
-
 console.log(calculateFactorial(5)); //> 120
