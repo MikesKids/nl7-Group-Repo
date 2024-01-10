@@ -28,6 +28,7 @@ function isPalindrome(inputString) {
   // Implementation is intentionally omitted in this file.
 }
 
+//@Erick
 /**
  * Counts the occurrences of a specific element in an array.
  *
@@ -37,13 +38,15 @@ function isPalindrome(inputString) {
  */
 function countOccurrences(array, targetElement) {
   let count = 0;
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] === targetElement) {
+  for (let i = 0; i < array.length; i++) { // can you do this with a different tpe of for loop?
+    if (array[i] === targetElement) { // can you complete this if statement in one line?
       count++
     }
   }
   return count;
 }
+
+//@Mike
 /**
  * Merges two sorted arrays into a new sorted array.
  *
@@ -52,9 +55,13 @@ function countOccurrences(array, targetElement) {
  * @returns {number[]} - The merged and sorted array.
  */
 function mergeSortedArrays(arr1, arr2) {
-  return arr1.concat(arr2);
+  return arr1.concat(arr2); 
 }
 console.log(mergeSortedArrays([1, 2, 3, 4], [5, 6, 7, 8]));
+// what if arrOdd = [1, 3, 5, 7] and arrEven = [2, 4, 6, 8]?
+console.log(mergeSortedArrays(arrOdd, arrEven));
+
+// @AC
 /**
  * Calculates the factorial of a non-negative integer.
  *
