@@ -36,9 +36,14 @@ function isPalindrome(inputString) {
  * @returns {number} - The number of occurrences of the target element.
  */
 function countOccurrences(array, targetElement) {
-  // Implementation is intentionally omitted in this file.
+  let count = 0;
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === targetElement) {
+      count++
+    }
+  }
+  return count;
 }
-
 /**
  * Merges two sorted arrays into a new sorted array.
  *
