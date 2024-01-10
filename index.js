@@ -62,5 +62,9 @@ console.log(mergeSortedArrays([1, 2, 3, 4], [5, 6, 7, 8]));
  * @returns {number} - The factorial of the given number.
  */
 function calculateFactorial(n) {
-  // Implementation is intentionally omitted in this file.
+  let product = 1;
+  for (let i = 1; i <= n; product*=i++) {
+  }
+  return product;
 }
+console.log(calculateFactorial(5)); //> 120
