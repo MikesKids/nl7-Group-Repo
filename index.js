@@ -44,10 +44,6 @@ function countOccurrences(array, targetElement) {
   }
   return count;
 }
-const arrayOfNum = [10, 2, 3, 4, 4, 4, 5, 6]
-let result = countOccurrences(arrayOfNum, 4);
-
-console.log(result);
 /**
  * Merges two sorted arrays into a new sorted array.
  *
